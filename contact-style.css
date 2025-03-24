@@ -1,0 +1,93 @@
+body{
+background-color: rgb(252, 237, 220);
+}
+
+fieldset{
+    border: 0 none;
+}
+
+.field1{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(96, 0, 29);
+background-color: hotpink;
+border-radius: 5px;
+
+}
+
+legend{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+ width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+
+}
+
+.field2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: rgb(171, 0, 171);
+color: rgb(43, 0, 43);
+border-radius: 5px;
+}
+
+input[type=email], select, textarea {
+ width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+
+}
+
+input[type=tel], select, textarea {
+ width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+
+}
+
+.field3{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(24, 0, 96);
+background-color: lightblue;
+border-radius: 5px;
+}
+
+button{
+  background-color: hotpink;
+  color: rgb(96, 0, 29);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+ font-size: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .butt0n{
+    transition-duration: 0.4s;
+  }
+
+button:hover{
+    transition-duration: 0.4s;
+    background-color: lightblue;
+    color: rgb(24, 0, 96);
+}

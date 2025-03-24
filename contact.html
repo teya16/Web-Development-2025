@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuntak form</title>
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+<body>
+
+    <form 
+    action="mailto:therese.bonnici.h63740@mcast.edu.mt" 
+    method="post"
+    enctype="text/plain">
+
+<div class="field1">
+<fieldset>
+<legend>give me your credit card</legend>
+<br>
+    <label for="">first name:</label>
+    <input type="text" name="firstName" id="firstName" placeholder="gerald" required>
+<br>
+<br>
+    <label for="">last name:</label>
+    <input type="text" name="lastName" id="lastName" placeholder="wei" required>
+<br>
+<br>
+
+<p>give me your age:</p>
+<br>
+<input type="radio" name="age" value="1"  id="age1">
+<label for="age1">15-18</label>
+<br>
+<br>
+<input type="radio" name="age" value="2" id="age2">
+<label for="age2">18-25</label>
+<br>
+<br>
+<input type="radio" name="age" value="3" id="age3">
+<label for="age3">26-35</label>
+<br>
+<br>
+<input type="radio" name="age" value="4" id="age4">
+<label for="age4">36-50</label>
+<br>
+<br>
+</fieldset>
+</div>
+
+<br>
+<br>
+<div class="field2">
+<fieldset>
+<br>
+<legend>give me your details</legend>
+    <label for="email">email:</label>
+    <input type="email" name="email" id="email"
+    placeholder="gerald123@email.com">
+<br>
+<br>
+<label for="phone">phone number:</label>
+<input type="tel" name="phone" id="phone"
+placeholder="+000 12345678" required pattern="[0-9]{4} [0-9]{4}">
+
+<br>
+<br>
+<input type="checkbox" name="offers" id="offers">
+<label for="offers">contact me about whatever shit you post</label>
+
+</fieldset>
+</div>
+
+<br>
+<br>
+<div class="field3">
+<fieldset>
+<legend>message me</legend>
+<br>
+<label for="">what topic enrages you</label>
+<select name="topic" id="topic">
+<option value="" selected disabled>--pick one--</option>
+<option value="1">movies</option>
+<option value="2">music</option>
+<option value="3">tv shows</option>
+
+</select>
+<br>
+<br>
+<label for="message">message:</label>
+<textarea cols="10" rows="2" name="message" id="message"></textarea>
+
+</fieldset>
+</div>
+
+<br>
+<button type="submit">submit</button>
+<button type="reset">cancel</button>
+    </form>
+</body>
+</html>
