@@ -4,6 +4,7 @@ background-color: rgb(252, 237, 220);
 
 fieldset{
     border: 0 none;
+
 }
 
 .field1{
@@ -20,6 +21,8 @@ legend{
     text-align: center;
 }
 
+input[type=tel], select, textarea,
+input[type=email], select, textarea, 
 input[type=text], select, textarea {
  width: 100%;
   padding: 12px;
@@ -32,6 +35,15 @@ input[type=text], select, textarea {
 
 }
 
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=text]:focus{
+background-color: beige;
+}
+
+
+
+
 .field2{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 background-color: rgb(171, 0, 171);
@@ -39,29 +51,6 @@ color: rgb(43, 0, 43);
 border-radius: 5px;
 }
 
-input[type=email], select, textarea {
- width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
-
-}
-
-input[type=tel], select, textarea {
- width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
-
-}
 
 .field3{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
