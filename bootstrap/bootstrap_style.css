@@ -1,0 +1,17 @@
+.btn-primary{
+    background-color: lightpink;
+    border-color: lightpink;
+}
+
+.btn-primary:hover{
+background-color: hotpink;
+border-color: hotpink;
+}
+
+.btn-l-blue{
+background-color: lightblue;
+}
+
+.btn-l-blue:hover{
+background-color: lightseagreen;
+}
