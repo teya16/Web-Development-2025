@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 138.11">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Starshines, Starshines;
+        font-size: 87.42px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-4 {
+        letter-spacing: .01em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(12.74 98.91)"><tspan class="cls-6" x="0" y="0">Unsol</tspan><tspan class="cls-3" x="267.96" y="0">i</tspan><tspan class="cls-7" x="294.11" y="0">c</tspan><tspan class="cls-1" x="350.35" y="0">i</tspan><tspan class="cls-5" x="383.36" y="0">t</tspan><tspan class="cls-4" x="427.01" y="0">ed.</tspan></text>
+</svg>
