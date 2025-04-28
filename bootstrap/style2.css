@@ -41,6 +41,7 @@ border-color: hotpink;
 .card2{
     width: 90%;
 margin: auto;
+padding: 10px;
 }
 
 .card-header{
