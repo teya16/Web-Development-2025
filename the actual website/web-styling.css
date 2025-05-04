@@ -4,14 +4,35 @@
     font-style: normal;
 }
 
-.bentham-regular {
-    font-family: "Bentham", serif;
+.b612-regular {
+    font-family: "B612", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
+  }
+  
+  .b612-bold {
+    font-family: "B612", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .b612-regular-italic {
+    font-family: "B612", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .b612-bold-italic {
+    font-family: "B612", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 
 body{
-    background-image: url(background.jpg) !important;
+    background-image: url(background.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color:#3d3d3d;
 }
 
@@ -46,18 +67,26 @@ h2, h3{
 
 
 p{
-font-family: "Bentham";
-font-size: x-large;
+font-family: "B612";
+font-size: medium;
 text-align: justify;
 color: white;
 }
 
-.container-xl{
+.container-xxl{
     background-color: #3d3d3d;
     border-radius: 25px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
+
+
+
+.carousel-inner{
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
 
 .carousel-text{
     color: black;
@@ -68,17 +97,21 @@ h5{
 }
 
 footer{
-background-color:#3d3d3d;  
+background-color:#3d3d3d; 
+padding-top: 5px; 
 }
 
 .footer-link{
     padding-left: 30px;
     color: black;
+    font-family: "Mouse Memoirs";
+    font-size: x-large;
 }
 
 .card{
     margin-left: 70px;
     margin-bottom: 20px;
+    border: transparent;
 }
 
 
@@ -89,22 +122,30 @@ background-color:#3d3d3d;
 .card-header{
     background-color: #FFACE4;
     font-family: "Mouse Memoirs";
-    color: black;
+    color:#AE2983;
     font-size: xx-large;
 }
 
 .list-group-item{
     background-color: white;
-    font-family: "Bentham";
+    font-family: "B612";
     text-decoration: none;
     color: black;
+}
+
+.list-group-item:hover{
+background-color: #ffd7f2;
 }
 
 .p-card{
 font-size: large;
 color: black;
-font-family: "Bentham";
+font-family: "B612";
 margin-bottom: 0%;
+}
+
+.p-card:hover{
+color:#c43695;
 }
 
 .card-link{
@@ -114,6 +155,7 @@ color: black;
 
 .card-link:hover{
 font-weight: bolder;
+color:#c43695;
 }
 
 
@@ -122,7 +164,14 @@ font-weight: bolder;
     font-weight: bold;
 }
 
+.banner{
+    background-color: #FFD3F1;
+    color: #AE2983;
+}
 
+footer{
+    font-family: "B612";
+}
 
 <!--colors
 .ffffff
