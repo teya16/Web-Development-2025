@@ -164,6 +164,14 @@ color:#c43695;
     font-weight: bold;
 }
 
+.card-img-top{
+    width: 288px;
+    height: 88px;
+    mask-image: url();
+}
+
+
+
 .banner{
     background-color: #FFD3F1;
     color: #AE2983;
