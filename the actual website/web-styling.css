@@ -43,6 +43,7 @@ background-color: #3d3d3d !important;
 .nav-item{
     font-family:"Mouse Memoirs";
     font-size: x-large;
+    padding: 2px;
 }
 
 .nav-item:hover{
@@ -145,7 +146,7 @@ margin-bottom: 0%;
 }
 
 .p-card:hover{
-color:#c43695;
+color:#AE2983;
 }
 
 .card-link{
@@ -155,7 +156,7 @@ color: black;
 
 .card-link:hover{
 font-weight: bolder;
-color:#c43695;
+color:#AE2983;
 }
 
 
@@ -164,23 +165,61 @@ color:#c43695;
     font-weight: bold;
 }
 
-.card-img-top{
-    width: 288px;
-    height: 88px;
-    mask-image: url();
+
+.ind-post-card{
+    padding: 0%;
+    margin-left: 50px;
+    margin-top: 80px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.575);
+}
+
+.ind-post-card:hover{
+    background-color: #FFACE4;
+    transition: 0.3s;
+    color:#AE2983;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.700);
+}
+
+.post-link{
+    text-decoration: none;
+}
+
+.card-body{
+    padding-bottom: 5px;
 }
 
 
+
+
+.text-small{
+    font-family: "Mouse Memoirs";
+    font-size: large;
+}
+
+
+.card-title{
+    font-size: xx-large;
+}
+
+.end-tag{
+    opacity: 80%;
+}
+
+
+.banners{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 .banner{
     background-color: #FFD3F1;
     color: #AE2983;
 }
-
-footer{
-    font-family: "B612";
-}
-
 <!--colors
 .ffffff
 .000000
