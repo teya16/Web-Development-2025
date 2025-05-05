@@ -222,3 +222,42 @@ color:#AE2983;
     background-color: #FFD3F1;
     color: #AE2983;
 }
+
+.scrollspy{
+    padding-top: 20px;
+    padding-left: 20px;
+    border-color: transparent;
+    border-radius: 30px;
+}
+
+.bg-danger{
+background-color: #FFACE4 !important;
+color:#AE2983;
+font-family: "Mouse Memoirs";
+font-size: x-large;
+}
+
+.bg-danger:hover{
+text-decoration: underline !important;
+background-color: #fb8dd6 !important;
+color:#AE2983 !important ;
+transition: 0.3s !important;
+}
+
+.scrollspy-example{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: "Mouse Memoirs";
+    color: white;
+}
+
+.scrollspy-head{
+    font-size:xx-large;
+}
+
+.about-header{
+    text-align: left;
+    font-size:350%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
