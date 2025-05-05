@@ -282,3 +282,21 @@ transition: 0.3s !important;
 .breadcrumb-item>a:hover{
     text-decoration: underline;
 }
+
+.post-title{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.post-tag{
+    background-color: #FFACE4;
+    color: #AE2983;
+    padding-left: 5px;
+}
+.post-tag>h5{
+    float: left;
+}
+
+.post-tag>img{
+    float: right;
+}
