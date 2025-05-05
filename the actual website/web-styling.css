@@ -288,15 +288,26 @@ transition: 0.3s !important;
     margin-left: 30px;
 }
 
-.post-tag{
-    background-color: #FFACE4;
-    color: #AE2983;
-    padding-left: 5px;
-}
-.post-tag>h5{
-    float: left;
+.tag{
+    margin-left: 25px;
+    width: 75px;
+    height: 35px;
+    margin-top: 20px;
 }
 
-.post-tag>img{
-    float: right;
+.post-image{
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-bottom: 20px;
+}
+
+.break-photo{
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.post-text{
+padding-left: 25px;
+padding-right: 25px;
+text-align: justify;
 }
