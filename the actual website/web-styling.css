@@ -109,7 +109,7 @@ padding-top: 5px;
 
 .footer-link{
     padding-left: 30px;
-    color: black;
+    color: white;
     font-family: "Mouse Memoirs";
     font-size: x-large;
 }
@@ -133,15 +133,14 @@ padding-top: 5px;
     font-size: xx-large;
 }
 
-.list-group-item{
-    background-color: white;
-    font-family: "B612";
-    text-decoration: none;
-    color: black;
+.bg-warning{
+    background-color: white !important;
+    font-family: "B612" !important;
 }
 
-.list-group-item:hover{
-background-color: #ffd7f2;
+.bg-warning:hover{
+    background-color:#ffdff5 !important;
+    color: #AE2983 !important;
 }
 
 .p-card{
@@ -310,4 +309,45 @@ transition: 0.3s !important;
 padding-left: 25px;
 padding-right: 25px;
 text-align: justify;
+}
+
+.where-header{
+    font-family: "Mouse Memoirs";
+    font-size: xx-large;
+    background-color:#FFACE4;
+    color: #AE2983;
+}
+
+.where-to-watch-listen{
+    margin-left: 40px;
+    width: 700px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.rating{
+    font-family: "Mouse Memoirs";
+    text-align: start;
+margin-top: 0px;
+}
+
+.rating-2{
+    font-size: xx-large;
+}
+
+.menu-link{
+    font-family: "B612";
+    color: black;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    color: #AE2983;
+    text-decoration: underline;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
 }
