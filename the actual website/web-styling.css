@@ -351,3 +351,38 @@ margin-top: 0px;
     height: 40px;
     margin-right: 5px;
 }
+
+.form-subhead{
+font-family: "Mouse Memoirs";
+color: white;
+font-size: xx-large;
+margin-left: 20px;
+}
+
+input{
+    font-family: "B612";
+    border-color: #AE2983;
+    border-width: 3px;
+    width: 50em;
+    border-radius: 5px;
+    border: solid;
+    margin-left: 20px;
+}
+
+input:hover{
+    color: #AE2983;
+    background-color: #FFACE4;
+    transition: 0.3s;
+}
+
+::placeholder{
+    color: #AE2983;
+    padding: 4px;
+}
+
+label{
+    font-family: "B612";
+    color: white;
+    margin-left: 20px;
+}
+
