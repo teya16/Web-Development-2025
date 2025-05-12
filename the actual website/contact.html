@@ -44,41 +44,65 @@
     <div class="row">
 <h1 class="about-header">Contact</h1>
 </div>
-
+<!--contact form-->
 <div class="row">
  <form 
     action="mailto:therese.bonnici.h63740@mcast.edu.mt" 
     method="post"
     enctype="text/plain">
     
+    <!--name field-->
 <fieldset>
 <legend class="form-subhead">Full Name</legend>
-<br>
-    <input type="text" name="firstName" id="firstName" placeholder="Bitty Fobitty" required>
-<br>
-<br>
+    <input class="name-fill" type="text" name="Name" id="Name" placeholder="Bitty Fobitty" required>
 </fieldset>
+<br>
     </div>
 
+<!--email field-->
     <div class="row">
     <fieldset>
-<br>
-<legend class="form-subhead">give me your details</legend>
-    <label for="email">email:</label>
-    <input type="email" name="email" id="email"
-    placeholder="gerald123@email.com">
+<legend class="form-subhead">Email</legend>
+    <input class="name-fill" type="email" name="email" id="email"
+    placeholder="bitty@catmail.com">
     </fieldset>
+    <br>
+    </div>
+<br>
+
+<!--message field-->
+    <div class="row">
+<fieldset>
+<legend class="form-subhead">Message</legend>
+<select class="form-select" aria-label="Default select example" name="topic" id="topic">
+  <option selected disabled>--Topic--</option>
+  <option value="1">Review Suggestion</option>
+  <option value="2">Bug Report</option>
+  <option value="3">Complaint</option>
+</select>
+
+
+<div class="mb-3">
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" id="message"></textarea>
+</div>
+
+<br>
+
+</fieldset>
+
+</div>
+
+<!--submit/cancel buttons-->
+<div class="row">
+<button class="form-buttons" type="submit">submit</button>
+<button class="form-buttons" type="reset">cancel</button>
+</div>
+
+</div>
     </div>
 
     
-    
-    
-    
 
-
-
-    </form>
-    </div>
 
       <!-- le footer-->
       <footer>
