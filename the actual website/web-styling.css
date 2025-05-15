@@ -351,3 +351,73 @@ margin-top: 0px;
     height: 40px;
     margin-right: 5px;
 }
+
+.form-subhead{
+font-family: "Mouse Memoirs";
+color: white;
+font-size: xx-large;
+margin-left: 20px;
+}
+
+.name-fill{
+    font-family: "B612";
+    border-color: #AE2983;
+    border-width: 3px;
+    width: 70em;
+    border-radius: 5px;
+    border: solid;
+    margin-left: 20px;
+}
+
+.name-fill:hover{
+    color: #AE2983;
+    background-color: #FFACE4;
+    transition: 0.3s;
+}
+
+::placeholder{
+    color: #AE2983;
+    padding: 4px;
+}
+
+.form-select{
+    width: 70em;
+    margin-bottom: 20px;
+margin-left: 20px;
+font-family: "B612";
+}
+
+.form-control{
+    border: solid 3px;
+    width: 70em;
+    margin-bottom: 20px;
+margin-left: 20px;
+height: 15em;
+font-family:"B612";
+}
+
+.form-control:hover{
+    background-color: #fb8dd6;
+    color: #AE2983;
+    transition: 0.3s;
+    border-color: #AE2983;
+}
+
+.form-buttons{
+    width: 6em;
+    height: 3em;
+    margin-left: 40px;
+    border: solid 1px #AE2983;
+    border-radius: 5px;
+    font-family: "B612";
+    font-size: large;
+    background-color: #FFACE4;
+    color: #AE2983;
+    margin-bottom: 30px;
+}
+
+.form-buttons:hover{
+    background-color: #fa7ed0;
+    color: #9f1a75;
+    transition: 0.3s;
+}
